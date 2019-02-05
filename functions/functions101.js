@@ -25,8 +25,23 @@ let otherValue = square(10)
 console.log(value)
 console.log(otherValue)
 
-//Challenge Area
+// Challenge Area
 
+//convert Fahrenheit to celcius
+
+// Call a couple of times
+
+
+let convertfahrenheit = function(F) {
+    let celcius =  (F - 32) * 5/9
+    return celcius
+}
+
+let value1 = convertfahrenheit(32)
+let otherValue2 = convertfahrenheit(68)
+
+console.log(value1)
+console.log(otherValue2)
 
 
 
