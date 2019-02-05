@@ -32,16 +32,20 @@ console.log(otherValue)
 // Call a couple of times
 
 
-let convertfahrenheit = function(F) {
-    let celcius =  (F - 32) * 5/9
+let convertfahrenheit = function(fahrenheit) {
+    let celcius =  (fahrenheit - 32) * 5/9
     return celcius
 }
 
-let value1 = convertfahrenheit(32)
-let otherValue2 = convertfahrenheit(68)
+let tempOne = convertfahrenheit(32)
+let tempTwo = convertfahrenheit(68)
 
-console.log(value1)
-console.log(otherValue2)
+console.log(tempOne)
+console.log(tempTwo)
+
+// 1. Define function
+// let convertfahrenheit
+
 
 
 
