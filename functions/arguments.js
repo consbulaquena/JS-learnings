@@ -13,11 +13,33 @@ console.log(result)
 // How to use default arguments
 // Game leaderboard most points to least
 // name socre undefined if not defined
+//default name, score values Anon and 10
 
-let getScoreText = function (name = 'Anonymous', score = 10) {
+let getScoreTest = function (name = 'Anonymous', score = 10) {
     console.log(name)
     console.log(score)
 }
 
-getScoreText()
+let scoreTest = getScoreTest(undefined, 99)
+console.log(scoreTest)
+
+
+// Challenge area Tip Calculator
+// total, tipPercent .5 , .2
+
+
+let getTip = function (total, tipPercent = .2) {
+    return total * tipPercent
+
+}
+
+let tip = getTip(90)
+console.log(tip)
+
+
+
+
+
+
+
 
