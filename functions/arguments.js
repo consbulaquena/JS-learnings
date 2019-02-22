@@ -12,8 +12,9 @@ console.log(result)
 
 // How to use default arguments
 // Game leaderboard most points to least
+// name socre undefined if not defined
 
-let getScoreText = function (name, score = 10) {
+let getScoreText = function (name = 'Anonymous', score = 10) {
     console.log(name)
     console.log(score)
 }
