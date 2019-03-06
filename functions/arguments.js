@@ -33,13 +33,20 @@ let getTip = function (total, tipPercent = .2) {
 
 }
 
-let tip = getTip(90)
+let tip = getTip(90, .25)
 console.log(tip)
 
+console.log('Cons' + 'Joy')
+
+
+//template strings
+
+let name = 'Andrew'
+let age = 25
+console.log(`Hi, I'm ${name}! I'm ${age} years old`)
 
 
 
 
 
-
-
+  
