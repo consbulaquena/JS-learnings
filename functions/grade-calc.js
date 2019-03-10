@@ -4,13 +4,25 @@
 
 
 
+let studentScore = 19
+let totalScore = 20
 
 
-let getTip2 = function (total, tipPercent = .2) {
-    let score = (studentScore / totalScore) * 100
-    let tip2 = total * tipPercent
-    return `A ${percent} tip on ${total} would be ${tip2}`
+let getScore = function (studentScore, totalScore) {
+    let percent = (studentScore / totalScore) * 100
+    if (percent >= 90) {
+        return `You get A ${percent}%!`
+    } else if (percent >= 80) {
+        return `You get B ${percent}%!`
+    } else if (percent >= 70) {
+        return `You get C ${percent}%!`
+    } else if (percent >= 60) {
+        return `You get D ${percent}%!`
+    } else if (percent >= 50) {
+        return `You get F ${percent}%!`
+    
+    }
 }
 
-let tip2 = getTip2(60)
-console.log(tip2)
+let result = getScore(17, 20)
+console.log(result)
