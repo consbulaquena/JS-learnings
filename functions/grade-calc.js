@@ -4,25 +4,28 @@
 
 
 
-let studentScore = 19
-let totalScore = 20
+let studentScore = 45
+let totalScore = 50
 
 
 let getScore = function (studentScore, totalScore) {
     let percent = (studentScore / totalScore) * 100
+    let letterGrade = ''
+
     if (percent >= 90) {
-        return `You get A ${percent}%!`
+        letterGrade = 'A'
     } else if (percent >= 80) {
-        return `You get B ${percent}%!`
+        letterGrade = 'B'
     } else if (percent >= 70) {
-        return `You get C ${percent}%!`
+        letterGrade = 'C'
     } else if (percent >= 60) {
-        return `You get D ${percent}%!`
+        letterGrade = 'D'
     } else if (percent >= 50) {
-        return `You get F ${percent}%!`
+        letterGrade = 'D'
     
     }
+    return `You get ${letterGrade} (${percent}%)!`
 }
 
-let result = getScore(17, 20)
+let result = getScore(45, 50)
 console.log(result)
