@@ -4,7 +4,7 @@
 
 
 
-let studentScore = 45
+let studentScore = 20
 let totalScore = 50
 
 
@@ -20,12 +20,13 @@ let getScore = function (studentScore, totalScore) {
         letterGrade = 'C'
     } else if (percent >= 60) {
         letterGrade = 'D'
-    } else if (percent >= 50) {
-        letterGrade = 'D'
+    } else {
+        letterGrade = 'F'
     
     }
     return `You get ${letterGrade} (${percent}%)!`
 }
 
-let result = getScore(45, 50)
+//change here
+let result = getScore(20, 50)
 console.log(result)
