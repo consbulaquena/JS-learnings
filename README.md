@@ -1,7 +1,7 @@
 # JavaScript Learnings
 
 ### ABOUT
-My learnings in JavaScript.
+Fundamental concepts in JavaScript, what I've learned so far.
 
 
 ### FEATURES
