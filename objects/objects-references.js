@@ -22,41 +22,34 @@ let myAccount = {
     income: 0
 }
 
-let addExpense = function(account, amount) {
+let addExpense = function (account, amount) {
     account.expenses = account.expenses + amount
-    console.log(account)
 }
 
 
-addExpense(myAccount, 2.50)
-console.log(myAccount)
-
-
-
-let addIncome= function(account, amount) {
-    account.income = account.income + amount
-    console.log(account)
+let addIncome= function (account, income) {
+    account.income = account.income + income
 }
 
+// reset
+let resetAccount = function (account) {
+    account.expenses = 0
+    account.income = 0
+}
 
-addIncome(myAccount, 2.50)
-console.log(myAccount)
-
-// getAccountSummary
 
 let getSummary = function (account) {
-    return {
-        summary: `${account.name} income is ${account.income} expenses ${account.expenses}`,
-    
-    }
+    let balance = account.income - account.expenses
+    return `Account for ${account.name} has ${balance} income $ ${account.income} expenses ${account.expenses}`
 }
 
-let accountSummary = getSummary(myAccount)
+//Use the functions above
+addIncome(myAccount, 5000)
+addExpense(myAccount, 2.50)
+addExpense(myAccount, 500)
+console.log(getSummary(myAccount))
 
+resetAccount(myAccount)
+console.log(getSummary(myAccount))
 
-console.log(myAccount.summary)
-
-
-// resetAccount
-// getAccountSummary
 
