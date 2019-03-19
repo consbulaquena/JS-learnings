@@ -1,19 +1,5 @@
 //expense tracker challenge
-
-
-
-//1 add income take acct to manipulate, income for, take income try add
-//2 reset account reset expenses/income to zero
-//3 Get account summary - act bounce total expense, income -
-// Account for Cons has 900 dollars , 1000 in income, 100 in expenses
-
-//use functions
-
-//addincome
-// addExpense
-// getAccountSummary
-// resetAccount
-// getAccountSummary
+// Learn how fuctions objects work together
 
 
 let myAccount = {
