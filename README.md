@@ -9,6 +9,7 @@ Fundamental concepts in JavaScript, what I've learned so far.
 <li>JavaScript basics & functions
 <li>Simple temperature converter</li>
 <li>Grade Calculator</li>
+<li>Mini Expense tracker</li>
 <li></li>
 
 </ul>
