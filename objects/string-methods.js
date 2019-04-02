@@ -4,15 +4,11 @@ let name = 'Cons Bulaquena'
 
 console.log(name.length)
 
-// Can validate number of passwords
+// Can validate number of password
 //convert to upper case
-//this 1 method
+//this i method
 console.log(name.toUpperCase())
 
-console.log(name.toLowerCase())
-
-let password = 'g0ldrIdden'
-console.log(password.includes('password'))
 
 
-console.log(name.trim())
+
