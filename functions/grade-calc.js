@@ -3,13 +3,8 @@
 // A 90 -100. B 80-89, C 70-79, D 60-69, F 0-59
 
 
-
-let studentScore = 20
-let totalScore = 50
-
-
-let getScore = function (studentScore, totalScore) {
-    let percent = (studentScore / totalScore) * 100
+const getScore = function (studentScore, totalScore) {
+    const percent = (studentScore / totalScore) * 100
     let letterGrade = ''
 
     if (percent >= 90) {
@@ -28,5 +23,5 @@ let getScore = function (studentScore, totalScore) {
 }
 
 //change here
-let result = getScore(20, 50)
+const result = getScore(20, 50)
 console.log(result)
