@@ -2,9 +2,14 @@
 
 const todos = ['Todo 1', 'Todo 2', 'Todo 3', 'Save $1000', 'Invest in stocks']
 
-console.log(todos.pop())
-todos.pop()
-todos.push('My new note')
+// console.log(todos.pop())
+// todos.pop()
+// todos.push('My new note')
+
+// console.log(todos.shift())
+
+todos.splice(1, 1)
+
 
 console.log(todos.length)
 console.log(todos)
