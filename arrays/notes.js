@@ -36,4 +36,19 @@ console.log(notes2)
 
 
 
+//***Header: Looping over Arrays
+// forEach = Calls a defined callback function on each element of an array, 
+// index - position of item in list
+// Using forEach
 
+
+const notes3 = ['Note 1', 'Note 2', 'Note 3', ]
+
+notes3[2] = 'This now new note 3'
+
+notes3.forEach(function (item, index) {
+    console.log(index)
+    console.log(item)
+})
+
+console.log(notes3)
