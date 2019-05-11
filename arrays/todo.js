@@ -1,6 +1,6 @@
 //array with 5 todos
 
-const todos = ['Todo 1', 'Todo 2', 'Todo 3', 'Save $1000', 'Invest in stocks']
+const todos = ['Work Hard', 'Pay Debt', 'Save Emergency Fund', 'Invest in mutual funds', 'Paid Off Mortgage']
 
 // console.log(todos.pop())
 // todos.pop()
@@ -20,4 +20,9 @@ console.log(`To-dos: ${todos[4]}`)
 
 
 
+//Challenge time
+todos.forEach(function (todo, index) {
+    const num = index + 1
+    console.log(`${num}. ${todo}`)
 
+})
