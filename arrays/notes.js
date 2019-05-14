@@ -52,3 +52,22 @@ notes3.forEach(function (item, index) {
 })
 
 console.log(notes3)
+
+//**Using forLoops */
+// Counting... Increment 0,1,2
+
+for (let count= 0; count <= 2; count++) {
+    console.log(count)
+}
+
+// Counting... Decrement 2,1,0
+
+for (let count2= 2; count2 >= 0; count2--) {
+    console.log(count2)
+}
+
+
+
+
+
+
