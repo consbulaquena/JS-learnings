@@ -67,7 +67,26 @@ for (let count2= 2; count2 >= 0; count2--) {
 }
 
 
+//Searching Arrays
 
 
+const booknotes = [{}, {
+    title: 'Fellowship of the Ring',
+    body: 'Meeting with Gandalf, Aragorn and team'
+}, {
+    title: 'Two Towers',
+    body: 'Perils in Mordor'
+}, {
+    title: 'Return of the King',
+    body: 'Final chapter'
+
+}]
+
+
+console.log(booknotes)
+const index = booknotes.findIndex(function (note, index) {
+    return note.title === 'Two Towers'
+})
+console.log(index)
 
 
