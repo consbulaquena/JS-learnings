@@ -26,3 +26,36 @@ todos.forEach(function (todo, index) {
     console.log(`${num}. ${todo}`)
 
 })
+
+
+
+//forstatement
+// The for statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.
+
+
+
+var str = "$";
+
+for (var a = 0; a < 5; a++) {
+  str = str + a;
+}
+
+console.log(str);
+// expected output: "$01234"
+
+
+
+//@12:27    
+// 
+//print items in order
+//For statement
+
+
+// for (let count = 0; count < todos.length; count++) {
+//     const num = count + 1
+//     const todo = todos[count]
+//     console.log(`${num}. ${todo}`)
+// }
+
+
+
