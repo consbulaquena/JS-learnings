@@ -27,6 +27,7 @@ todos.forEach(function (todo, index) {
 
 })
 
+// expected output: 1. Work Hard 2. Save emergency 3. Invest 4. Paid off mortgage
 
 
 //forstatement
