@@ -13,24 +13,34 @@ const todos =  [{
 
 }, {
     title: 'Invested pera retirement',
-    body: 'For old age'
+    body: 'For old age 60 years'
 }]
  
-const findNote = function (todos, todoTitle) {
-    return todos.find(function (todo, index) {
-    return todo.title.toLowerCase() === todoTitle.toLowerCase()
-    })
-}
+
 
 
 const filteredTodos = todos.filter(function (todo, index) {
-    const isTitleMatch = todo.title.toLowerCase().includes('retirement')
-    const isBodyMatch = todo.body.toLowerCase().includes('retirement')
+    const isTitleMatch = todo.title.toLowerCase().includes('60')
+    const isBodyMatch = todo.body.toLowerCase().includes('60')
     return isTitleMatch || isBodyMatch
 
 })
 console.log(filteredTodos)
 
-const todo = findNote(todos, 'Invested pera retirement')
-console.log(todo)
+
+
+
+
+
+
+// const findNote = function (todos, todoTitle) {
+//     return todos.find(function (todo, index) {
+//     return todo.title.toLowerCase() === todoTitle.toLowerCase()
+//     })
+// }
+
+
+
+// const todo = findNote(todos, 'emergency fund')
+// console.log(todo)
 
