@@ -10,7 +10,7 @@ Fundamental concepts in JavaScript, what I've learned so far.
 <li>Simple temperature converter</li>
 <li>Grade Calculator</li>
 <li>Mini Expense tracker</li>
-<li>Searching in Arrays</li>
+<li>Search, filter in Arrays</li>
 <li></li>
 
 </ul>
