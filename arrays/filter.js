@@ -17,6 +17,15 @@ const todos =  [{
 }]
  
 
+const findNotes = function (todos, query) {
+    return todos.filter(function (todo, index) {
+    const isTitleMatch = todo.title.toLowerCase().includes(query.toLowerCase())
+    const isBodyMatch = todo.body.toLowerCase().includes(query.toLowerCase())
+    return isTitleMatch || isBodyMatch
+    })
+}
+
+console.log(findNotes(todos, 'emergency'))
 
 
 const filteredTodos = todos.filter(function (todo, index) {
