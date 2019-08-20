@@ -1,5 +1,5 @@
 // Using sort
-// it arranges todos completed from true to false using sort and if, else if statements
+// it arranges todos completed from false to true, uncompleted to completed using sort and if, else if statements
 
 const todos =  [{
     text: 'Wake up 6:30am',
