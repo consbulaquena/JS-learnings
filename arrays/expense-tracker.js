@@ -8,9 +8,16 @@ const account = {
     })
 },
 
+getAccountSummary: function () {
+    let totalExpenses = 0
 
+    this.expenses.forEach(function (expense) {
+        totalExpenses = totalExpenses + expense.amount
+    })
+    return `${this.name} has $${totalExpenses} in expenses`
 
-
+    }
+}
 
 // expense -> description, amount
 // addexpense ->description, amount
