@@ -17,10 +17,11 @@ addIncome: function (description, amount) {
 },
 
 getAccountSummary: function () {
-    let totalExpenses = 0
-    let totalIncome = 0
-    let accountBalance = 0
+    let totalExpenses = 200
+    let totalIncome = 3000
+    let accountBalance = 1500
 
+    // Array of expenses/income using --forEach 
     this.expenses.forEach(function (expense) {
         totalExpenses = totalExpenses + expense.amount
     })
@@ -32,7 +33,7 @@ getAccountSummary: function () {
     accountBalance = totalIncome - totalExpenses
 
 
-    return `${this.name} has a balance of $$(accountBalance). $${totalIncome} in income, $${totalExpenses} in expenses`
+    return `${this.name} has a balance of $${accountBalance}. $${totalIncome} in income, $${totalExpenses} in expenses`
 
     }
 }
