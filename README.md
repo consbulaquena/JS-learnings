@@ -11,7 +11,7 @@ Fundamental concepts in JavaScript, what I've learned so far.
 <li>Grade Calculator</li>
 <li>Mini Expense tracker</li>
 <li>Search, filter in Arrays</li>
-<li></li>
+<li>Clock</li>
 
 </ul>
 
