@@ -118,7 +118,7 @@ switch (job) {
 // height is not defined so if False so printed False in else
 var height;
 
-heighr = 0;
+height = 0;
 
 if (height || height === 0) {
     console.log('Variable defined');
@@ -127,8 +127,25 @@ if (height || height === 0) {
 }
 
 
+//coding challenge
+// Score calculate average
+//calculating average score
+
+var scoreJohn = (89 + 120 + 7) / 3;
+var scoreMike = (90 + 100 + 11) / 3;
+console.log(scoreJohn, scoreMike);
 
 
+//print who wins
+
+if (scoreJohn > scoreMike) {
+    console.log('John\'s team wins with ' + scoreJohn + ' points');
+} else if (scoreMike > scoreJohn) {
+    console.log('Mike\'s team wins with ' + scoreMike + ' points');
+//for draw
+} else {
+    console.log('There is a draw');
+}
 
 
 
