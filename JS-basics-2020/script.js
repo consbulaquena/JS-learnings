@@ -147,7 +147,7 @@ if (scoreJohn > scoreMike) {
     console.log('There is a draw');
 }
 
-
+// FUNCTIONS
 //Retirement calculator
 
 function calculateAge(birthYear) {
@@ -160,6 +160,25 @@ var ageCons = calculateAge(1989);
 //20 29 in console
 console.log(ageJohn, ageCons)
 
+
+// note: pasa pasa ang year, year is a box
+
+
+function yearsUntilRetirement(year, firstName) {
+    var age = calculateAge(year);
+    var retirement = 65 - age;
+
+    if(retirement > 0) {
+        console.log(firstName + ' retires in ' + retirement + ' years.');
+
+    } else {
+        console.log(firstName + ' is already retired.')
+    }
+}
+
+yearsUntilRetirement(1992, 'Angel');
+yearsUntilRetirement(1998, 'Lucas');
+yearsUntilRetirement(1960, 'Chinkee');
 
 
 
