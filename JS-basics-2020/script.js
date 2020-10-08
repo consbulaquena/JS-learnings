@@ -148,7 +148,17 @@ if (scoreJohn > scoreMike) {
 }
 
 
+//Retirement calculator
 
+function calculateAge(birthYear) {
+    return 2018 - birthYear;
+}
+
+var ageJohn = calculateAge(1998);
+var ageCons = calculateAge(1989);
+
+//20 29 in console
+console.log(ageJohn, ageCons)
 
 
 
