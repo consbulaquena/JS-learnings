@@ -10,7 +10,7 @@ console.log(firstName);
 
 
 //result John 28
-var firstName = 'John';
+var firstName = 'Johnny';
 var age = 28;
 
 console.log(firstName + ' ' + age);

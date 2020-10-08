@@ -7,7 +7,7 @@ Fundamental concepts in JavaScript, what I've learned so far.
 ### FEATURES
 <ul>
 <li>JavaScript basics & functions
-<li>Simple temperature converter</li>
+<li>Simple Temperature converter</li>
 <li>Grade Calculator</li>
 <li>Mini Expense tracker</li>
 <li>Search, filter in Arrays</li>
