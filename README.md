@@ -16,6 +16,6 @@ Fundamental concepts in JavaScript, what I've learned so far.
 </ul>
 
 ### I USED
-<ul><li>Visual Studio Code for Mac</li>
+<ul><li>Visual Studio Code</li>
   <li>Atom</li>
 </ul>
