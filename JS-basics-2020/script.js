@@ -188,21 +188,27 @@ var whatDoYouDo = function(job, firstName) {
 
 
     // the new value of job is a lowered case value
+    
+    // trim removes unnecessary spaces
+    var job = job.trim();
+
     var job = job.toLowerCase();
+
+    var job = job.replace("developer", "programmer");
 
     switch(job) {
         case 'driver':
             return firstName + ' drives a truck';
         case 'kindergarten teacher':
             return firstName + ' teaches kids';
-        case 'mobile developer':
-            return firstName + ' creates app';
+        case 'mobile programmer':
+            return firstName + ' creates cool mobile apps';
         default:
             return firstName + ' does something else';
     }
 }
 
-console.log(whatDoYouDo('MobiLE Developer', 'Cons'));
+console.log(whatDoYouDo('  MobiLE Developer  ', 'Cons'));
 
 
 
