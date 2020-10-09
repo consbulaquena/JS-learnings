@@ -178,8 +178,10 @@ function yearsUntilRetirement(year, firstName) {
 
 yearsUntilRetirement(1992, 'Angel');
 yearsUntilRetirement(1998, 'Lucas');
-yearsUntilRetirement(1960, 'Chinkee');
+yearsUntilRetirement(1940, 'Chinkee');
 
+
+//Function Statements and Expressions
 
 
 
