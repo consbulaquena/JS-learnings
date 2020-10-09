@@ -198,11 +198,11 @@ var whatDoYouDo = function(job, firstName) {
 
     switch(job) {
         case 'driver':
-            return firstName + ' drives a truck';
+            return firstName + ' drives a truck 🚚 🤣';
         case 'kindergarten teacher':
             return firstName + ' teaches kids';
         case 'mobile programmer':
-            return firstName + ' creates cool mobile apps';
+            return firstName + ' creates cool mobile apps 👩🏻‍💻';
         default:
             return firstName + ' does something else';
     }
