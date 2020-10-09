@@ -181,7 +181,35 @@ yearsUntilRetirement(1998, 'Lucas');
 yearsUntilRetirement(1940, 'Chinkee');
 
 
-//Function Statements and Expressions
+// Function Statements and Expressions
+// Find this job with the value mobile developer
+
+var whatDoYouDo = function(job, firstName) {
+
+
+    // the new value of job is a lowered case value
+    var job = job.toLowerCase();
+
+    switch(job) {
+        case 'driver':
+            return firstName + ' drives a truck';
+        case 'kindergarten teacher':
+            return firstName + ' teaches kids';
+        case 'mobile developer':
+            return firstName + ' creates app';
+        default:
+            return firstName + ' does something else';
+    }
+}
+
+console.log(whatDoYouDo('MobiLE Developer', 'Cons'));
+
+
+
+
+
+
+
 
 
 
